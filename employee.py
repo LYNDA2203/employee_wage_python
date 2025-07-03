@@ -7,3 +7,9 @@ def check_attendance():
         print("Employee is Present")
     else:
         print("Employee is Absent")
+        
+#uc2-- Claculate Daily employee Wage    
+def calculate_daily_wage():
+    wage_per_hour = 20 #max of 20hours in a month 
+    full_day_hour = 8 #for full_time calculating as 8hours
+    return wage_per_hour * full_day_hour
