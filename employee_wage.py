@@ -56,3 +56,12 @@ class EmployeeWage:
     @staticmethod #connot access class or instance variable but can call the class without object
     def compute_wage(wage_per_hour, total_days, hours_per_day):
         return wage_per_hour * total_days * hours_per_day
+    
+#UC8-- Creating the class[MultiCompanyWage] for calculating the wages of employee for multiple company
+class MultiCompanyWage:
+    @staticmethod #connot access class or instance variable but can call the class without object
+    def compute_wage(company, wage_per_hour, total_days, hours_per_day):
+        total_wage = wage_per_hour * total_days * hours_per_day
+        print(f"Total wage for {company}: {total_wage}")
+        return total_wage
+    

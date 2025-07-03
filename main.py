@@ -27,3 +27,7 @@ if __name__ == "__main__":
 #UC7-- Creating the class[employee_wages ] for  calculating the wages of employee 
     wage = employee_wage.EmployeeWage.compute_wage(20, 20, 8)
     print("Employee Wage:", wage)
+
+#UC8-- Creating the class[MultiCompanyWage] for calculating the wages of employee for multiple company
+    employee_wage.MultiCompanyWage.compute_wage("Amazon", 20, 20, 8)
+    employee_wage.MultiCompanyWage.compute_wage("Microsoft", 25, 22, 9)
