@@ -20,4 +20,8 @@ if __name__ == "__main__":
    
   #UC5-- Calculating the monthly wages of employee
     print("Monthly Wage:", employee_wage.calculate_monthly_wage())
- 
+    
+  #UC6-- Calculating the total wages of employee according to the working hours
+    print("Total Wage:", employee_wage.calculate_total_wage())
+    
+  

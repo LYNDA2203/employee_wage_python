@@ -35,4 +35,18 @@ def calculate_monthly_wage():
     working_days = 20 #calculating as per 20 days
     full_day_hours = 8 
     return wage_per_hour * full_day_hours * working_days
-   
+
+#UC6-- Calculating the total wages of employee according to the working hours
+def calculate_total_wage():
+    wage_per_hour = 20
+    total_hours = 0 #initialy assigned as zero
+    total_days = 0 #initialy assigned as zero
+    max_hours = 100 #max hours taken as 100 hours
+    max_days = 20 #maximum days taken as 20
+
+    while total_hours <= max_hours and total_days < max_days:
+        hours = 8  # assuming full-time
+        total_hours += hours
+        total_days += 1
+
+    return total_hours * wage_per_hour   
