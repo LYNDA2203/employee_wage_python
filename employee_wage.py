@@ -21,3 +21,11 @@ def calculate_part_time_wage():
     wage_per_hour = 20 #calculating max hours as 20 hours
     part_time_hour = 4 #calculating Part_time as 4hours
     return wage_per_hour * part_time_hour
+
+#UC4-- Getting the working hours of an employee    
+def get_work_hours(emp_type):
+    return {#returning the value of full_time and part_time values according to the random generated value
+        "part_time": 4,
+        "full_time": 8
+    }.get(emp_type, 0) # if absent-0, part-time-4, full-time-8
+    
