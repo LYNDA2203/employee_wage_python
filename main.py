@@ -18,3 +18,6 @@ if __name__ == "__main__":
     print(f"Employee Type: {emp_type}")# returns the employee type[full-time or part_time]
     print("Wage:", hours * 20)# calculate wages according to the hours of employee works
    
+  #UC5-- Calculating the monthly wages of employee
+    print("Monthly Wage:", employee_wage.calculate_monthly_wage())
+ 

@@ -28,4 +28,11 @@ def get_work_hours(emp_type):
         "part_time": 4,
         "full_time": 8
     }.get(emp_type, 0) # if absent-0, part-time-4, full-time-8
-    
+
+#UC5-- Calculating the monthly wages of employee
+def calculate_monthly_wage():
+    wage_per_hour = 20 #calculating wages as 20 per hour
+    working_days = 20 #calculating as per 20 days
+    full_day_hours = 8 
+    return wage_per_hour * full_day_hours * working_days
+   
