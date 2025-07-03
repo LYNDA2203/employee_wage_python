@@ -49,4 +49,10 @@ def calculate_total_wage():
         total_hours += hours
         total_days += 1
 
-    return total_hours * wage_per_hour   
+    return total_hours * wage_per_hour 
+  
+#UC7-- Creating the class[employee_wages ] for  calculating the wages of employee 
+class EmployeeWage:
+    @staticmethod #connot access class or instance variable but can call the class without object
+    def compute_wage(wage_per_hour, total_days, hours_per_day):
+        return wage_per_hour * total_days * hours_per_day
